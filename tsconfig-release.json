@@ -1,8 +1,17 @@
 {
-    "extends": "./tsconfig.json",
     "compilerOptions": {
-        "sourceMap": false,
-        "declaration": true
+        "target": "ES5",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "noEmitOnError": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "declaration": true,
+        "rootDir": "src",
+        "outDir": "bin",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true
     },
     "exclude": [
         "src/test"
