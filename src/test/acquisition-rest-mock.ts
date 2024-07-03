@@ -6,6 +6,7 @@ import * as types from "../script/types";
 export var validDeploymentKey = "Valid Deployment Key";
 export var latestPackage = <types.UpdateCheckResponse>{
     download_url: "http://www.windowsazure.com/blobs/awperoiuqpweru",
+    download_url_arr: ["http://127.0.0.1"],
     description: "Angry flappy birds",
     target_binary_range: "1.5.0",
     label: "2.4.0",

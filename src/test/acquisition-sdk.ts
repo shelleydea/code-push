@@ -29,6 +29,7 @@ var scriptUpdateResult: acquisitionSdk.RemotePackage = {
     deploymentKey: mockApi.validDeploymentKey,
     description: latestPackage.description,
     downloadUrl: latestPackage.download_url,
+    downloadUrlArr: latestPackage.download_url_arr,
     label: latestPackage.label,
     appVersion: latestPackage.target_binary_range,
     isMandatory: latestPackage.is_mandatory,
