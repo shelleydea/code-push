@@ -61,7 +61,7 @@ export interface PackageInfo {
 /*out*/
 export interface UpdateCheckResponse {
   download_url?: string;
-  download_url_arr?: Array<string>;
+  download_url_arr?: string[];
   description?: string;
   is_available: boolean;
   is_disabled?: boolean;

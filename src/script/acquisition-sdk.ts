@@ -31,7 +31,7 @@ export interface Package {
 
 export interface RemotePackage extends Package {
     downloadUrl: string;
-    downloadUrlArr?: Array<string>;
+    downloadUrlArr?: string[];
 }
 
 export interface NativeUpdateNotification {
